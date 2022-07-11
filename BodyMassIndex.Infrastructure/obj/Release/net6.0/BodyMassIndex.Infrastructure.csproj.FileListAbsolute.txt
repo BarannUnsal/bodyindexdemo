@@ -1,0 +1,12 @@
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Infrastructure\bin\Release\net6.0\BodyMassIndex.Infrastructure.deps.json
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Infrastructure\bin\Release\net6.0\BodyMassIndex.Infrastructure.dll
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Infrastructure\bin\Release\net6.0\ref\BodyMassIndex.Infrastructure.dll
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Infrastructure\bin\Release\net6.0\BodyMassIndex.Infrastructure.pdb
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Infrastructure\obj\Release\net6.0\BodyMassIndex.Infrastructure.csproj.AssemblyReference.cache
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Infrastructure\obj\Release\net6.0\BodyMassIndex.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Infrastructure\obj\Release\net6.0\BodyMassIndex.Infrastructure.AssemblyInfoInputs.cache
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Infrastructure\obj\Release\net6.0\BodyMassIndex.Infrastructure.AssemblyInfo.cs
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Infrastructure\obj\Release\net6.0\BodyMassIndex.Infrastructure.csproj.CoreCompileInputs.cache
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Infrastructure\obj\Release\net6.0\BodyMassIndex.Infrastructure.dll
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Infrastructure\obj\Release\net6.0\ref\BodyMassIndex.Infrastructure.dll
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Infrastructure\obj\Release\net6.0\BodyMassIndex.Infrastructure.pdb

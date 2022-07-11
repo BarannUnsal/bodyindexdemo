@@ -1,0 +1,12 @@
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Domain\bin\Debug\net6.0\BodyMassIndex.Domain.deps.json
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Domain\bin\Debug\net6.0\BodyMassIndex.Domain.dll
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Domain\bin\Debug\net6.0\ref\BodyMassIndex.Domain.dll
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Domain\bin\Debug\net6.0\BodyMassIndex.Domain.pdb
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Domain\obj\Debug\net6.0\BodyMassIndex.Domain.csproj.AssemblyReference.cache
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Domain\obj\Debug\net6.0\BodyMassIndex.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Domain\obj\Debug\net6.0\BodyMassIndex.Domain.AssemblyInfoInputs.cache
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Domain\obj\Debug\net6.0\BodyMassIndex.Domain.AssemblyInfo.cs
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Domain\obj\Debug\net6.0\BodyMassIndex.Domain.csproj.CoreCompileInputs.cache
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Domain\obj\Debug\net6.0\BodyMassIndex.Domain.dll
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Domain\obj\Debug\net6.0\ref\BodyMassIndex.Domain.dll
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Domain\obj\Debug\net6.0\BodyMassIndex.Domain.pdb

@@ -1,0 +1,77 @@
+﻿@model BodyMassIndex.Application.Features.CreateIndex.CreateDimensionsCommandRequest
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Body Mass Index</h1>
+
+@using (Html.BeginForm("BodyMassIndex", "Home", FormMethod.Post))
+{
+    <form method="post" id="resultForm">
+        <div class="col-md-6 mt-3 form-group">
+            @Html.TextBoxFor(x=>x.Heigth, new{@class="effect-2 inputHeigth", type="number", placeholder="Heigth"})
+            @Html.ValidationMessageFor(x=>x.Heigth, "", new {@class = "text-danger "})
+        </div>
+        <div class="col-md-6 mt-3 form-group">
+            @Html.TextBoxFor(x=>x.Weigth, new{@class="effect-2 inputWeigth", type="number", placeholder="Weigth"})
+            @Html.ValidationMessageFor(x=>x.Weigth, "", new {@class = "text-danger"})
+        </div>
+        <button type="submit" class="btn btn-outline-secondary mt-3">Check!</button>
+    </form>
+}
+
+@if (TempData["Less18"] != null)
+{
+    <script>
+        Swal.fire({
+              title: 'You Are Underweight',
+              html: 'Your Index =<strong> @TempData["result"]</strong>. You should gain some weight. And you must be healthy. You should eat a balanced and carbohydrate-heavy diet. If you want to get support from our team, just click the <a href="Coaches">link</a> . Stay healthy.',
+              imageUrl: 'https://i.redd.it/nbwoc0mecot11.jpg',
+              imageWidth : 400,
+              imageHeight: 300,
+              imageAlt: 'You Weeak'
+        })
+    </script>
+}
+@if (TempData["Less25"] != null)
+{
+        <script>
+        Swal.fire({
+              title: 'You Are Normal',
+              html: 'Your Index =<strong> @TempData["result"]</strong>. Everything looks good. Keep staying healthy. Stay away from inactivity. <a href="Coaches">Contact</a> our team for more information.',
+              imageUrl: 'https://memegenerator.net/img/instances/73220588/youre-pretty-okay-false-you-are-awesome.jpg',
+              imageWidth : 400,
+              imageHeight: 300,
+              imageAlt: 'You Normal'              
+        })
+    </script>
+}
+
+@if (TempData["Less30"] != null)
+{
+    <script>
+        Swal.fire({
+              title: 'You Are Overweight!!!',
+              html: 'Your Index =<strong> @TempData["result"]</strong>. You have to watch your weight. You have to watch your weight. You are in a risky situation and we are concerned for your health. Go out and exercise. Change the food you eat. Change your life. We are always <a href="Coaches">here</a>.',
+              imageUrl: 'https://i.imgflip.com/3g72gs.png',
+              imageWidth : 400,
+              imageHeight: 300,
+              imageAlt: 'You Overweight'
+        })
+    </script>
+}
+
+@if (TempData["Big30"] != null)
+{
+    <script>
+        Swal.fire({
+              title: 'Stop Eating!!!',
+              html: 'Your Index =<strong> @TempData["result"]</strong>. Stop eating now. We have serious concerns for your health. Go out and exercise. If you want to get help <a href="Coaches">from us...</a>',
+              imageUrl: 'https://memegenerator.net/img/instances/52752342/i-cant-stop-eating-or-breaking-the-law.jpg',
+              imageWidth : 400,
+              imageHeight: 300,
+              imageAlt: 'You Fat'
+        })
+    </script>
+}

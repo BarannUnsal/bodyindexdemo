@@ -1,0 +1,15 @@
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Application\bin\Release\net6.0\BodyMassIndex.Application.deps.json
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Application\bin\Release\net6.0\BodyMassIndex.Application.dll
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Application\bin\Release\net6.0\ref\BodyMassIndex.Application.dll
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Application\bin\Release\net6.0\BodyMassIndex.Application.pdb
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Application\bin\Release\net6.0\BodyMassIndex.Domain.dll
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Application\bin\Release\net6.0\BodyMassIndex.Domain.pdb
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Application\obj\Release\net6.0\BodyMassIndex.Application.csproj.AssemblyReference.cache
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Application\obj\Release\net6.0\BodyMassIndex.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Application\obj\Release\net6.0\BodyMassIndex.Application.AssemblyInfoInputs.cache
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Application\obj\Release\net6.0\BodyMassIndex.Application.AssemblyInfo.cs
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Application\obj\Release\net6.0\BodyMassIndex.Application.csproj.CoreCompileInputs.cache
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Application\obj\Release\net6.0\BodyMassIndex.Application.csproj.CopyComplete
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Application\obj\Release\net6.0\BodyMassIndex.Application.dll
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Application\obj\Release\net6.0\ref\BodyMassIndex.Application.dll
+D:\USERDATA\Desktop\BodyMassIndex\BodyMassIndex.SLN\BodyMassIndex.Application\obj\Release\net6.0\BodyMassIndex.Application.pdb

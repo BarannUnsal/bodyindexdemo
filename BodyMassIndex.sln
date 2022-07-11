@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{50A34D87-BCD4-4CB2-964D-3F58EDB9B785}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{CF54D616-1E6D-4C57-AAAE-1CC5748B8BAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{235855A8-6947-43D2-9F87-7497816E1276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BodyMassIndex.Infrastructure", "BodyMassIndex.Infrastructure\BodyMassIndex.Infrastructure.csproj", "{23A3133C-69A8-4752-926B-A8B8444746BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BodyMassIndex.Persistence", "BodyMassIndex.Persistence\BodyMassIndex.Persistence.csproj", "{D25F3FE2-C782-47DA-9E16-B061F39C7153}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BodyMassIndex.Application", "BodyMassIndex.Application\BodyMassIndex.Application.csproj", "{11FBF244-0F87-4BAC-9AB1-8119B59D8987}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BodyMassIndex.Domain", "BodyMassIndex.Domain\BodyMassIndex.Domain.csproj", "{7DAD2ADA-7A22-4779-94B8-4F1FAD9DCBD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BodyMassIndex.API", "BodyMassIndex.API\BodyMassIndex.API.csproj", "{08EB0792-DC7F-4630-AC9D-E286DBF946D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23A3133C-69A8-4752-926B-A8B8444746BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A3133C-69A8-4752-926B-A8B8444746BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A3133C-69A8-4752-926B-A8B8444746BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A3133C-69A8-4752-926B-A8B8444746BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D25F3FE2-C782-47DA-9E16-B061F39C7153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D25F3FE2-C782-47DA-9E16-B061F39C7153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D25F3FE2-C782-47DA-9E16-B061F39C7153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D25F3FE2-C782-47DA-9E16-B061F39C7153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11FBF244-0F87-4BAC-9AB1-8119B59D8987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11FBF244-0F87-4BAC-9AB1-8119B59D8987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11FBF244-0F87-4BAC-9AB1-8119B59D8987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11FBF244-0F87-4BAC-9AB1-8119B59D8987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DAD2ADA-7A22-4779-94B8-4F1FAD9DCBD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DAD2ADA-7A22-4779-94B8-4F1FAD9DCBD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DAD2ADA-7A22-4779-94B8-4F1FAD9DCBD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DAD2ADA-7A22-4779-94B8-4F1FAD9DCBD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08EB0792-DC7F-4630-AC9D-E286DBF946D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08EB0792-DC7F-4630-AC9D-E286DBF946D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08EB0792-DC7F-4630-AC9D-E286DBF946D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08EB0792-DC7F-4630-AC9D-E286DBF946D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{23A3133C-69A8-4752-926B-A8B8444746BC} = {CF54D616-1E6D-4C57-AAAE-1CC5748B8BAA}
+		{D25F3FE2-C782-47DA-9E16-B061F39C7153} = {CF54D616-1E6D-4C57-AAAE-1CC5748B8BAA}
+		{11FBF244-0F87-4BAC-9AB1-8119B59D8987} = {50A34D87-BCD4-4CB2-964D-3F58EDB9B785}
+		{7DAD2ADA-7A22-4779-94B8-4F1FAD9DCBD1} = {50A34D87-BCD4-4CB2-964D-3F58EDB9B785}
+		{08EB0792-DC7F-4630-AC9D-E286DBF946D2} = {235855A8-6947-43D2-9F87-7497816E1276}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {185FC737-F709-4D70-A252-4DBD68A00364}
+	EndGlobalSection
+EndGlobal

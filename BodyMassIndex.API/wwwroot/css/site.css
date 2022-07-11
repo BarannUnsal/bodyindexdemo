@@ -1,0 +1,118 @@
+html {
+  font-size: 14px;  
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;    
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #FFF7E0;
+}
+
+.effect-2 {
+    border: 0;
+    padding: 7px 0;
+    border-bottom: 1px solid #ccc;
+}
+     .focus-border:active {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 0;
+        height: 2px;
+        background-color: #4caf50;
+        transition: 0.4s;
+    }
+
+     .focus-border {
+        width: 100%;
+        transition: 0.4s;
+        left: 0;
+    }
+input[type="number"] {
+    font: 15px/24px 'Muli', sans-serif;
+    color: #333;
+    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+:focus {
+    outline: none;
+}
+
+.header_logo{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    background-color: transparent;
+    border-bottom: 1px solid pink;
+    color:white;
+}
+
+.topnav a {
+    color: #8E0505;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: #2E0249;   
+    color:white
+}
+
+.wrapper {
+    margin-top:8%;
+    margin-bottom: 8%;
+    position: relative;
+    perspective: 100em;
+    display: grid;
+    transform-style: preserve-3d;
+}
+
+    .wrapper:before {
+        --bw: 9px;
+        grid-area: 1 / 1;
+        content: '';
+        height: 100%;
+        width: 100%;
+        margin-left: calc(-1 * var(--bw));
+        background: transparent;
+        transform: translateX(-10px) rotateY(-10deg) rotateX(15deg) scale(1);
+        pointer-events: none;
+        border: var(--bw) solid #2E0249;
+        box-sizing: content-box;
+    }
+
+    .wrapper:hover > div,
+    .wrapper:hover:before {
+        transform: none;
+    }
+
+
+    .wrapper > div,
+    .wrapper:before {
+        will-change: transform;
+        transition: .3s transform cubic-bezier(.25,.46,.45,1);
+    }
+
+
+.video {
+    grid-area: 1 / 1;
+    transform: translateX(10px) rotateY(15deg) rotateX(0deg);
+    padding: 10px;
+    backface-visibility: hidden;
+    box-shadow: 0 10px 30px -3px rgba(0,0,0,.1);
+    background: #F806CC;
+}

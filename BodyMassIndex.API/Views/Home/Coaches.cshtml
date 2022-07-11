@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Coaches";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<head>
+    <style>
+        .card_ {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .contact {
+            color: grey;
+            font-size: 18px;
+        }
+
+        .link_{
+            color: black;
+        }
+            .link_ :hover {
+                color: pink;
+            }
+
+            .card_:hover{
+                 transform: scale3d(1.100, 1.100, 1);
+            }
+    </style>
+</head>
+
+
+<h1>Our Team</h1>
+<div class="row mt-5">
+    <div class="col-6">
+        <div class="card card_ text-center">
+            <img src="~/img/cankut.jpg" alt="Cankut" style="width:100%">
+            <h1 class="mt-2">Cankut Uzel</h1>
+            <p class="contact">Personel Trainer</p>
+            <p>Gelisim University</p>
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://www.instagram.com/cankutuzel/" class="link_" target="_blank">
+                        <i class="fa-brands fa-instagram fa-lg "></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="card card_ text-center">
+            <img src="~/img/kaan.jpg" alt="Kaan" style="width:100%">
+            <h1 class="mt-2">Kaan Edebali</h1>
+            <p class="title">Personel Trainer</p>
+            <p>Gelisim University</p>
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://www.instagram.com/kaanedebali/" class="link_"  target="_blank">
+                         <i class="fa-brands fa-instagram fa-lg"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

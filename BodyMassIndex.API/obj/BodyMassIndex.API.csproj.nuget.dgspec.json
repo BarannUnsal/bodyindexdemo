@@ -1,0 +1,401 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.API\\BodyMassIndex.API.csproj": {}
+  },
+  "projects": {
+    "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.API\\BodyMassIndex.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.API\\BodyMassIndex.API.csproj",
+        "projectName": "BodyMassIndex.API",
+        "projectPath": "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.API\\BodyMassIndex.API.csproj",
+        "packagesPath": "C:\\Users\\SIA-OF1\\.nuget\\packages\\",
+        "outputPath": "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SIA-OF1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "D:\\PROGRAMLAR\\Microsoft Visual Studio\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Infrastructure\\BodyMassIndex.Infrastructure.csproj": {
+                "projectPath": "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Infrastructure\\BodyMassIndex.Infrastructure.csproj"
+              },
+              "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Persistence\\BodyMassIndex.Persistence.csproj": {
+                "projectPath": "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Persistence\\BodyMassIndex.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Application\\BodyMassIndex.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Application\\BodyMassIndex.Application.csproj",
+        "projectName": "BodyMassIndex.Application",
+        "projectPath": "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Application\\BodyMassIndex.Application.csproj",
+        "packagesPath": "C:\\Users\\SIA-OF1\\.nuget\\packages\\",
+        "outputPath": "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SIA-OF1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "D:\\PROGRAMLAR\\Microsoft Visual Studio\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Domain\\BodyMassIndex.Domain.csproj": {
+                "projectPath": "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Domain\\BodyMassIndex.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.1.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Domain\\BodyMassIndex.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Domain\\BodyMassIndex.Domain.csproj",
+        "projectName": "BodyMassIndex.Domain",
+        "projectPath": "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Domain\\BodyMassIndex.Domain.csproj",
+        "packagesPath": "C:\\Users\\SIA-OF1\\.nuget\\packages\\",
+        "outputPath": "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SIA-OF1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "D:\\PROGRAMLAR\\Microsoft Visual Studio\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Infrastructure\\BodyMassIndex.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Infrastructure\\BodyMassIndex.Infrastructure.csproj",
+        "projectName": "BodyMassIndex.Infrastructure",
+        "projectPath": "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Infrastructure\\BodyMassIndex.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\SIA-OF1\\.nuget\\packages\\",
+        "outputPath": "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SIA-OF1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "D:\\PROGRAMLAR\\Microsoft Visual Studio\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Persistence\\BodyMassIndex.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Persistence\\BodyMassIndex.Persistence.csproj",
+        "projectName": "BodyMassIndex.Persistence",
+        "projectPath": "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Persistence\\BodyMassIndex.Persistence.csproj",
+        "packagesPath": "C:\\Users\\SIA-OF1\\.nuget\\packages\\",
+        "outputPath": "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SIA-OF1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "D:\\PROGRAMLAR\\Microsoft Visual Studio\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Application\\BodyMassIndex.Application.csproj": {
+                "projectPath": "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Application\\BodyMassIndex.Application.csproj"
+              },
+              "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Domain\\BodyMassIndex.Domain.csproj": {
+                "projectPath": "D:\\USERDATA\\Desktop\\BodyMassIndex\\BodyMassIndex.SLN\\BodyMassIndex.Domain\\BodyMassIndex.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
