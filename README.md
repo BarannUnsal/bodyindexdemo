@@ -3,6 +3,7 @@
 
 A simple web application where you can calculate your body mass index by height and weight.
 
+To reach the [site](https://duckduckgo.com "Body Index").
 
 ![Screenshot_1](https://user-images.githubusercontent.com/96000792/178293662-715a160c-adc1-47dd-b6a2-549b6ac68053.png)
 ![Screenshot_3](https://user-images.githubusercontent.com/96000792/178293681-e0c154f6-84d7-4af6-b787-5342a8561335.png)
